@@ -1,3 +1,14 @@
+// Implement a method called findKthFromEnd that returns the k-th node from the end of a singly linked list.
+// The linked list does not store its length, so you must determine the correct node without using a size property.
+
+// The value of k is 1-based:
+// 1. k = 1 returns the last node (tail).
+// 2. k = 2 returns the second-to-last node.
+// 3. k = list length returns the head node.
+// 4. k <= 0 or k > list length returns null.
+
+// You must solve this problem using the two-pointer technique, ensuring the solution runs in a single traversal of the list (O(n) time, O(1) space).
+
 public class LinkedList {
 
     private Node head;
