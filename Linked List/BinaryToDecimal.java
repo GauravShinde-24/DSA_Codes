@@ -1,4 +1,5 @@
 // Objective:
+
 // You have a linked list where each node represents a binary digit (0 or 1). 
 // The goal of the binaryToDecimal function is to convert this binary number, represented by the linked list, into its decimal equivalent.
 
